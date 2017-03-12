@@ -1,0 +1,383 @@
+Traceback (most recent call last):
+  File "get_temp_humd_graphly.py", line 1, in <module>
+    import plotly.plotly as py
+  File "/usr/local/lib/python2.7/dist-packages/plotly/__init__.py", line 31, in <module>
+    from plotly import (plotly, graph_objs, grid_objs, tools, utils, session,
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/__init__.py", line 10, in <module>
+    from . plotly import (
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 31, in <module>
+    from plotly import exceptions, tools, utils, version, files
+  File "/usr/local/lib/python2.7/dist-packages/plotly/tools.py", line 20, in <module>
+    from plotly import graph_reference
+  File "/usr/local/lib/python2.7/dist-packages/plotly/graph_reference.py", line 518, in <module>
+    GRAPH_REFERENCE = get_graph_reference()
+  File "/usr/local/lib/python2.7/dist-packages/plotly/graph_reference.py", line 109, in get_graph_reference
+    return utils.decode_unicode(graph_reference)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/utils.py", line 316, in decode_unicode
+    coll[key] = decode_unicode(val)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/utils.py", line 316, in decode_unicode
+    coll[key] = decode_unicode(val)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/utils.py", line 316, in decode_unicode
+    coll[key] = decode_unicode(val)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/utils.py", line 316, in decode_unicode
+    coll[key] = decode_unicode(val)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/utils.py", line 316, in decode_unicode
+    coll[key] = decode_unicode(val)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/utils.py", line 317, in decode_unicode
+    elif isinstance(val, str):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "get_humd_graphly.py", line 1, in <module>
+    import plotly.plotly as py
+  File "/usr/local/lib/python2.7/dist-packages/plotly/__init__.py", line 31, in <module>
+    from plotly import (plotly, graph_objs, grid_objs, tools, utils, session,
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/__init__.py", line 10, in <module>
+    from . plotly import (
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 31, in <module>
+    from plotly import exceptions, tools, utils, version, files
+  File "/usr/local/lib/python2.7/dist-packages/plotly/tools.py", line 34, in <module>
+    from . import matplotlylib
+  File "/usr/local/lib/python2.7/dist-packages/plotly/matplotlylib/__init__.py", line 14, in <module>
+    from plotly.matplotlylib.renderer import PlotlyRenderer
+  File "/usr/local/lib/python2.7/dist-packages/plotly/matplotlylib/renderer.py", line 13, in <module>
+    import plotly.graph_objs as go
+  File "/usr/local/lib/python2.7/dist-packages/plotly/graph_objs/__init__.py", line 14, in <module>
+    from plotly.graph_objs.graph_objs import *  # this is protected with __all__
+  File "/usr/local/lib/python2.7/dist-packages/plotly/graph_objs/graph_objs.py", line 998, in <module>
+    _add_classes_to_globals(globals())
+  File "/usr/local/lib/python2.7/dist-packages/plotly/graph_objs/graph_objs.py", line 825, in _add_classes_to_globals
+    cls = type(str(class_name), class_bases, class_dict)
+KeyboardInterrupt
+https://plot.ly/~m2r0007/381
+Traceback (most recent call last):
+  File "get_humd_graphly.py", line 35, in <module>
+    stream.write({'x': datetime.datetime.now(), 'y': humidity})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 39, in write
+    self._reconnect()
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 264, in _reconnect
+    raise e
+socket.gaierror: [Errno -2] Name or service not known
+https://plot.ly/~m2r0007/383
+Traceback (most recent call last):
+  File "get_temp_humd_graphly.py", line 35, in <module>
+    stream.write({'x': datetime.datetime.now(), 'y': temp})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 39, in write
+    self._reconnect()
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 264, in _reconnect
+    raise e
+socket.gaierror: [Errno -2] Name or service not known
+https://plot.ly/~m2r0007/383
+Traceback (most recent call last):
+  File "get_temp_humd_graphly.py", line 35, in <module>
+    stream.write({'x': datetime.datetime.now(), 'y': temp})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 39, in write
+    self._reconnect()
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 264, in _reconnect
+    raise e
+socket.gaierror: [Errno -2] Name or service not known
+https://plot.ly/~m2r0007/381
+Traceback (most recent call last):
+  File "get_humd_graphly.py", line 35, in <module>
+    stream.write({'x': datetime.datetime.now(), 'y': humidity})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 39, in write
+    self._reconnect()
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 264, in _reconnect
+    raise e
+socket.gaierror: [Errno -2] Name or service not known
+https://plot.ly/~m2r0007/381
+Traceback (most recent call last):
+  File "get_humd_graphly.py", line 35, in <module>
+    stream.write({'x': datetime.datetime.now(), 'y': humidity})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 39, in write
+    self._reconnect()
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 264, in _reconnect
+    raise e
+socket.gaierror: [Errno -2] Name or service not known
+https://plot.ly/~m2r0007/383
+Traceback (most recent call last):
+  File "get_temp_humd_graphly.py", line 35, in <module>
+    stream.write({'x': datetime.datetime.now(), 'y': temp})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 39, in write
+    self._reconnect()
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 264, in _reconnect
+    raise e
+socket.gaierror: [Errno -2] Name or service not known
+https://plot.ly/~m2r0007/381
+Traceback (most recent call last):
+  File "get_humd_graphly.py", line 35, in <module>
+    stream.write({'x': datetime.datetime.now(), 'y': humidity})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 39, in write
+    self._reconnect()
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 264, in _reconnect
+    raise e
+socket.gaierror: [Errno -2] Name or service not known
+https://plot.ly/~m2r0007/383
+Traceback (most recent call last):
+  File "get_temp_humd_graphly.py", line 35, in <module>
+    stream.write({'x': datetime.datetime.now(), 'y': temp})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 39, in write
+    self._reconnect()
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 264, in _reconnect
+    raise e
+socket.gaierror: [Errno -2] Name or service not known
+https://plot.ly/~m2r0007/383
+Traceback (most recent call last):
+  File "get_temp_humd_graphly.py", line 35, in <module>
+    stream.write({'x': datetime.datetime.now(), 'y': temp})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 30, in write
+    if not self._isconnected():
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 241, in _isconnected
+    raise e
+socket.error: [Errno 113] No route to host
+https://plot.ly/~m2r0007/381
+Traceback (most recent call last):
+  File "get_humd_graphly.py", line 35, in <module>
+    stream.write({'x': datetime.datetime.now(), 'y': humidity})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 30, in write
+    if not self._isconnected():
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 241, in _isconnected
+    raise e
+socket.error: [Errno 113] No route to host
+https://plot.ly/~m2r0007/381
+Traceback (most recent call last):
+  File "get_humd_graphly.py", line 35, in <module>
+    stream.write({'x': datetime.datetime.now(), 'y': humidity})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 39, in write
+    self._reconnect()
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 264, in _reconnect
+    raise e
+socket.gaierror: [Errno -2] Name or service not known
+https://plot.ly/~m2r0007/383
+Traceback (most recent call last):
+  File "get_temp_humd_graphly.py", line 35, in <module>
+    stream.write({'x': datetime.datetime.now(), 'y': temp})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 39, in write
+    self._reconnect()
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 264, in _reconnect
+    raise e
+socket.gaierror: [Errno -2] Name or service not known
+https://plot.ly/~m2r0007/381
+Traceback (most recent call last):
+  File "get_humd_graphly.py", line 35, in <module>
+    stream.write({'x': datetime.datetime.now(), 'y': humidity})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 55, in write
+    msg=response.read()))
+Exception: Server responded with status code: 404
+and message: streamtoken not registered or valid.
+https://plot.ly/~m2r0007/383
+Traceback (most recent call last):
+  File "get_temp_humd_graphly.py", line 35, in <module>
+    stream.write({'x': datetime.datetime.now(), 'y': temp})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 55, in write
+    msg=response.read()))
+Exception: Server responded with status code: 404
+and message: streamtoken not registered or valid.
+https://plot.ly/~m2r0007/381
+Traceback (most recent call last):
+  File "get_humd_graphly.py", line 36, in <module>
+    sleep(2000) # delay between stream posts
+KeyboardInterrupt
+https://plot.ly/~m2r0007/383
+Traceback (most recent call last):
+  File "get_temp_humd_graphly.py", line 35, in <module>
+    stream.write({'x': datetime.datetime.now(), 'y': temp})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 39, in write
+    self._reconnect()
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 264, in _reconnect
+    raise e
+socket.gaierror: [Errno -2] Name or service not known
+https://plot.ly/~m2r0007/383
+Traceback (most recent call last):
+  File "get_temp_humd_graphly.py", line 35, in <module>
+    stream.write({'x': datetime.datetime.now(), 'y': temp})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 39, in write
+    self._reconnect()
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 264, in _reconnect
+    raise e
+socket.gaierror: [Errno -2] Name or service not known
+https://plot.ly/~m2r0007/381
+Traceback (most recent call last):
+  File "get_humd_graphly.py", line 39, in <module>
+    stream.write({'x': datetime.now(), 'y': humidity})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 55, in write
+    msg=response.read()))
+Exception: Server responded with status code: 302
+and message: .
+https://plot.ly/~m2r0007/383
+Traceback (most recent call last):
+  File "get_temp_humd_graphly.py", line 40, in <module>
+    stream.write({'x': datetime.now(), 'y': temp})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 55, in write
+    msg=response.read()))
+Exception: Server responded with status code: 302
+and message: .
+Traceback (most recent call last):
+  File "get_temp_humd.py", line 7, in <module>
+    cur_time = time.strftime('%X')
+AttributeError: 'builtin_function_or_method' object has no attribute 'strftime'
+Traceback (most recent call last):
+  File "get_temp_humd.py", line 7, in <module>
+    cur_time = time.strftime('%X')
+AttributeError: 'builtin_function_or_method' object has no attribute 'strftime'
+Traceback (most recent call last):
+  File "get_temp_humd.py", line 7, in <module>
+    cur_time = time.strftime('%X')
+AttributeError: 'builtin_function_or_method' object has no attribute 'strftime'
+Traceback (most recent call last):
+  File "get_temp_humd_graphly.py", line 1, in <module>
+    import plotly.plotly as py
+  File "/usr/local/lib/python2.7/dist-packages/plotly/__init__.py", line 31, in <module>
+    from plotly import (plotly, graph_objs, grid_objs, tools, utils, session,
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/__init__.py", line 10, in <module>
+    from . plotly import (
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 31, in <module>
+    from plotly import exceptions, tools, utils, version, files
+  File "/usr/local/lib/python2.7/dist-packages/plotly/tools.py", line 20, in <module>
+    from plotly import graph_reference
+  File "/usr/local/lib/python2.7/dist-packages/plotly/graph_reference.py", line 518, in <module>
+    GRAPH_REFERENCE = get_graph_reference()
+  File "/usr/local/lib/python2.7/dist-packages/plotly/graph_reference.py", line 86, in get_graph_reference
+    sha1 = hashlib.sha1(six.b(str(graph_reference))).hexdigest()
+KeyboardInterrupt
+https://plot.ly/~m2r0007/383
+Traceback (most recent call last):
+  File "get_temp_humd_graphly.py", line 40, in <module>
+    stream.write({'x': datetime.now(), 'y': temp})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 39, in write
+    self._reconnect()
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 264, in _reconnect
+    raise e
+socket.gaierror: [Errno -2] Name or service not known
+https://plot.ly/~m2r0007/381
+Traceback (most recent call last):
+  File "get_humd_graphly.py", line 39, in <module>
+    stream.write({'x': datetime.now(), 'y': humidity})
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 564, in write
+    self._stream.write(jdata, reconnect_on=reconnect_on)
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 39, in write
+    self._reconnect()
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/chunked_requests/chunked_request.py", line 264, in _reconnect
+    raise e
+socket.gaierror: [Errno -2] Name or service not known
+Traceback (most recent call last):
+  File "get_humd_graphly.py", line 1, in <module>
+    import plotly.plotly as py
+  File "/usr/local/lib/python2.7/dist-packages/plotly/__init__.py", line 31, in <module>
+    from plotly import (plotly, graph_objs, grid_objs, tools, utils, session,
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/__init__.py", line 10, in <module>
+    from . plotly import (
+  File "/usr/local/lib/python2.7/dist-packages/plotly/plotly/plotly.py", line 31, in <module>
+    from plotly import exceptions, tools, utils, version, files
+  File "/usr/local/lib/python2.7/dist-packages/plotly/tools.py", line 20, in <module>
+    from plotly import graph_reference
+  File "/usr/local/lib/python2.7/dist-packages/plotly/graph_reference.py", line 518, in <module>
+    GRAPH_REFERENCE = get_graph_reference()
+  File "/usr/local/lib/python2.7/dist-packages/plotly/graph_reference.py", line 105, in get_graph_reference
+    data = json.loads(content)
+  File "/usr/lib/python2.7/json/__init__.py", line 338, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python2.7/json/decoder.py", line 382, in raw_decode
+    obj, end = self.scan_once(s, idx)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "get_temp_humd.py", line 16, in <module>
+    forecasts = owm.daily_forecast("Cheltenham, uk", 1)
+  File "/usr/local/lib/python2.7/dist-packages/pyowm/webapi25/owm25.py", line 592, in daily_forecast
+    forecast = self._parsers['forecast'].parse_JSON(json_data)
+  File "/usr/local/lib/python2.7/dist-packages/pyowm/webapi25/forecastparser.py", line 56, in parse_JSON
+    ': impossible to read location info from JSON data']))
+pyowm.exceptions.parse_response_error.ParseResponseError: Exception in parsing OWM web API response
+Reason: pyowm.webapi25.forecastparser: impossible to read location info from JSON data
+Traceback (most recent call last):
+  File "get_temp_humd.py", line 16, in <module>
+    forecasts = owm.daily_forecast("Cheltenham, uk", 1)
+  File "/usr/local/lib/python2.7/dist-packages/pyowm/webapi25/owm25.py", line 592, in daily_forecast
+    forecast = self._parsers['forecast'].parse_JSON(json_data)
+  File "/usr/local/lib/python2.7/dist-packages/pyowm/webapi25/forecastparser.py", line 56, in parse_JSON
+    ': impossible to read location info from JSON data']))
+pyowm.exceptions.parse_response_error.ParseResponseError: Exception in parsing OWM web API response
+Reason: pyowm.webapi25.forecastparser: impossible to read location info from JSON data
+Traceback (most recent call last):
+  File "get_temp_humd.py", line 16, in <module>
+    forecasts = owm.daily_forecast("Cheltenham, uk", 1)
+  File "/usr/local/lib/python2.7/dist-packages/pyowm/webapi25/owm25.py", line 592, in daily_forecast
+    forecast = self._parsers['forecast'].parse_JSON(json_data)
+  File "/usr/local/lib/python2.7/dist-packages/pyowm/webapi25/forecastparser.py", line 56, in parse_JSON
+    ': impossible to read location info from JSON data']))
+pyowm.exceptions.parse_response_error.ParseResponseError: Exception in parsing OWM web API response
+Reason: pyowm.webapi25.forecastparser: impossible to read location info from JSON data
+Traceback (most recent call last):
+  File "get_temp_humd.py", line 16, in <module>
+    forecasts = owm.daily_forecast("Cheltenham, uk", 1)
+  File "/usr/local/lib/python2.7/dist-packages/pyowm/webapi25/owm25.py", line 592, in daily_forecast
+    forecast = self._parsers['forecast'].parse_JSON(json_data)
+  File "/usr/local/lib/python2.7/dist-packages/pyowm/webapi25/forecastparser.py", line 56, in parse_JSON
+    ': impossible to read location info from JSON data']))
+pyowm.exceptions.parse_response_error.ParseResponseError: Exception in parsing OWM web API response
+Reason: pyowm.webapi25.forecastparser: impossible to read location info from JSON data
+Traceback (most recent call last):
+  File "get_temp_humd.py", line 16, in <module>
+    forecasts = owm.daily_forecast("Cheltenham, uk", 1)
+  File "/usr/local/lib/python2.7/dist-packages/pyowm/webapi25/owm25.py", line 592, in daily_forecast
+    forecast = self._parsers['forecast'].parse_JSON(json_data)
+  File "/usr/local/lib/python2.7/dist-packages/pyowm/webapi25/forecastparser.py", line 56, in parse_JSON
+    ': impossible to read location info from JSON data']))
+pyowm.exceptions.parse_response_error.ParseResponseError: Exception in parsing OWM web API response
+Reason: pyowm.webapi25.forecastparser: impossible to read location info from JSON data
+Traceback (most recent call last):
+  File "get_temp_humd.py", line 25, in <module>
+    rain_status = check_rain()
+  File "get_temp_humd.py", line 21, in check_rain
+    return true
+NameError: global name 'true' is not defined
+Traceback (most recent call last):
+  File "get_temp_humd.py", line 24, in <module>
+    rain_status = check_rain()
+  File "get_temp_humd.py", line 16, in check_rain
+    forecasts = owm.daily_forecast("Cheltenham, UK", 1)
+  File "/usr/local/lib/python2.7/dist-packages/pyowm/webapi25/owm25.py", line 592, in daily_forecast
+    forecast = self._parsers['forecast'].parse_JSON(json_data)
+  File "/usr/local/lib/python2.7/dist-packages/pyowm/webapi25/forecastparser.py", line 56, in parse_JSON
+    ': impossible to read location info from JSON data']))
+pyowm.exceptions.parse_response_error.ParseResponseError: Exception in parsing OWM web API response
+Reason: pyowm.webapi25.forecastparser: impossible to read location info from JSON data
