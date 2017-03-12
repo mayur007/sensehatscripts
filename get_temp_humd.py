@@ -5,9 +5,12 @@ import pyowm
 
 owm = pyowm.OWM('5e82ea9b7cd0986bc9f3e3d2823af8eb')
 
+#colour_codes
 no_rain = [78, 47, 47]
 rain = [73, 107, 240]
 current = [73, 245, 108]
+vitamins = [273, 45, 118]
+
 
 sense = SenseHat()
 
@@ -29,18 +32,22 @@ count = 0
 
 rain_status, obs = check_rain()
 
-while(1):
+while 1:
+    curtime = strftime('%X')
     try:
         temp = int(sense.get_temperature())
         sense.set_rotation(180) #change display
         #if its goign to rain then blue colour or else red
-	if rain_status:
+        if rain_status:
             sense.show_message(str(temp),text_colour=rain)
         else:
             sense.show_message(str(temp),text_colour=no_rain)
-        curtime = strftime('%X')
+
+        #display VITA
+        sense.show_message("VITA", text_colour=vitamins)
+
         #after 8pm display every 500 sec
-        if int(curtime.split(':')[0]) > 20:
+        if int(curtime.split(':')[0]) > 20 and int(curtime.split(':')[0]) < 7:
             sense.show_message(obs.get_status(), text_colour=current )
             rain_status, obs = check_rain()
             sleep(500)
@@ -49,8 +56,8 @@ while(1):
             count += 1
             sense.show_message(obs.get_status(), text_colour=current)
             sleep(4)
-            if count == 600:
-                count = 0
-                rain_status, obs = check_rain()
+         if count == 600:
+            count = 0
+            rain_status, obs = check_rain()
     except Exception, e:
         print "cant read now", curtime
