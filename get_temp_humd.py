@@ -43,9 +43,6 @@ while 1:
         else:
             sense.show_message(str(temp),text_colour=no_rain)
 
-        #display VITA
-        sense.show_message("VITA", text_colour=vitamins)
-
         #after 8pm display every 500 sec
         if int(curtime.split(':')[0]) > 20 and int(curtime.split(':')[0]) < 7:
             sense.show_message(obs.get_status(), text_colour=current )
@@ -55,9 +52,13 @@ while 1:
             sleep(4)
             count += 1
             sense.show_message(obs.get_status(), text_colour=current)
-            sleep(4)
-         if count == 600:
+        sleep(4)
+        if count == 600:
             count = 0
             rain_status, obs = check_rain()
+            # display VITA
+
+        sense.show_message("VITA", text_colour=vitamins)
+
     except Exception, e:
         print "cant read now", curtime
